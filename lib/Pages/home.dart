@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: Text("CatalogApp"),),
       body: Center(
         child: Container(
-          child: Text("Welcome to My "),
+          child: Text("Home Page "),
         ),
       ),
       drawer: Drawer(),

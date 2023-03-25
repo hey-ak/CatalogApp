@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Widgets/drawer.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -12,7 +14,7 @@ class HomePage extends StatelessWidget {
           child: Text("Home Page "),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }

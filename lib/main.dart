@@ -22,9 +22,9 @@ class Myapp extends StatelessWidget {
       fontFamily: GoogleFonts.lato().fontFamily),
       // // themeMode: ThemeMode.dark,
       // darkTheme: ThemeData.dark(),
-      // initialRoute: "/home",
+      initialRoute: "/login",
       routes: {
-        MyRoutes.loginRoute: (context) => const LoginPage(),
+        MyRoutes.loginRoute: (context) =>  const LoginPage(),
         MyRoutes.homeRoute: (context) => const HomePage(),
       },
     );
